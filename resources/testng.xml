@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Nopcommerce UI Automation" verbose="1" >
+    <test name="Run on Chrome" >
+        <classes>
+            <class name="com.nopcommerce.users.Level_01_Register" />
+        </classes>
+    </test>
+</suite>
